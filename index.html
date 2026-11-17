@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Harper Health Network: homepage concepts</title>
+<link rel="icon" href="round-2/shared/img/favicon.png">
+<link rel="stylesheet" href="round-2/shared/fonts/source-serif/fonts.css">
+<link rel="stylesheet" href="round-2/shared/fonts/figtree/fonts.css">
+<style>
+  :root { --ground: #E9F9FB; --page: #FFFFFF; --ink: #122749; --muted: #3B4C68; --teal: #1CA5BA; --teal-text: #0F7183; --line: #D3E7EC; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--page); color: var(--ink); font: 400 17px/1.55 "Figtree", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  ::selection { background: #BFE8EF; color: var(--ink); }
+  a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--teal-text); outline-offset: 3px; border-radius: 6px; }
+  .top { background: var(--ground); border-bottom: 1px solid var(--line); }
+  .wrap { max-width: 1180px; margin: 0 auto; padding-inline: max(20px, 4vw); }
+  .top .wrap { padding-block: 32px 64px; }
+  .logo { height: 48px; width: auto; display: block; }
+  h1 { font: 350 clamp(38px, 5.2vw, 64px)/1.04 "Source Serif 4", Georgia, serif; letter-spacing: -0.01em; margin: 56px 0 18px; max-width: 20ch; text-wrap: balance; }
+  h1 span { color: #1A93A8; }
+  .intro { color: var(--muted); max-width: 40em; margin: 0; font-size: 18px; }
+  .round { padding-block: 64px 8px; }
+  h2 { font: 350 clamp(28px, 3vw, 38px)/1.1 "Source Serif 4", Georgia, serif; margin: 0 0 6px; }
+  .round > .wrap > p { color: var(--muted); margin: 0 0 28px; }
+  .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+  .opt { display: flex; flex-direction: column; text-decoration: none; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--page); transition: border-color .25s, box-shadow .25s, transform .25s; }
+  .opt:hover { border-color: var(--teal); box-shadow: 0 18px 40px -24px rgba(18, 39, 73, .45); transform: translateY(-2px); }
+  .opt img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; border-bottom: 1px solid var(--line); }
+  .opt div { padding: 18px 20px 20px; display: grid; gap: 6px; }
+  .opt strong { font-size: 19px; font-weight: 600; }
+  .opt p { margin: 0; color: var(--muted); font-size: 15px; }
+  .opt .go { color: var(--teal-text); font-weight: 600; font-size: 15px; margin-top: 4px; }
+  .opt .go::after { content: " \2192"; }
+  .tag { justify-self: start; font-size: 12px; font-weight: 600; color: var(--teal-text); background: var(--ground); border: 1px solid var(--line); border-radius: 99px; padding: 4px 10px; }
+  footer { margin-top: 72px; border-top: 1px solid var(--line); }
+  footer .wrap { padding-block: 28px 40px; color: var(--muted); font-size: 14px; }
+  @media (prefers-reduced-motion: reduce) { .opt { transition: none; } .opt:hover { transform: none; } }
+  @media (max-width: 900px) { .grid { grid-template-columns: minmax(0, 1fr); max-width: 560px; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <img class="logo" src="round-2/shared/img/harper-logo-color.png" width="708" height="325" alt="Harper Health Network">
+    <h1>Homepage concepts for <span>Harper</span></h1>
+    <p class="intro">Six designs for the new homepage. Open any one to see the full page. Scroll, menus and the quote form all work. People marked "Sample" are stand-in photos, not customers. The quote form opens your email app and sends nothing on its own.</p>
+  </div>
+</header>
+
+<main>
+  <section class="round" aria-labelledby="r2">
+    <div class="wrap">
+      <h2 id="r2">Round 2</h2>
+      <p>Calm and clinical, modeled on clinia.com.</p>
+      <div class="grid">
+        <a class="opt" href="round-2/option-1-replica/">
+          <img src="thumbs/r2-o1.jpg" width="1200" height="750" alt="First screen of Round 2, Option 1.">
+          <div><span class="tag">In Harper's colors</span><strong>Option 1: Network</strong><p>One price in, care out, shown as a map of your team, credits and local doctors. Light and dark mode.</p><span class="go">Open</span></div>
+        </a>
+        <a class="opt" href="round-2/option-2-ledger/">
+          <img src="thumbs/r2-o2.jpg" width="1200" height="750" alt="First screen of Round 2, Option 2." loading="lazy">
+          <div><strong>Option 2: Ledger</strong><p>Harper navy and teal. One month of health credits, told on a calendar.</p><span class="go">Open</span></div>
+        </a>
+        <a class="opt" href="round-2/option-3-front-desk/">
+          <img src="thumbs/r2-o3.jpg" width="1200" height="750" alt="First screen of Round 2, Option 3." loading="lazy">
+          <div><strong>Option 3: Front Desk</strong><p>One visit, told by the people in it. Quiet and photo-led.</p><span class="go">Open</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="round" aria-labelledby="r1">
+    <div class="wrap">
+      <h2 id="r1">Round 1</h2>
+      <p>Bold and full of motion, modeled on reelmotion.fit.</p>
+      <div class="grid">
+        <a class="opt" href="round-1/option-1-replica/">
+          <img src="thumbs/r1-o1.jpg" width="1200" height="750" alt="First screen of Round 1, Option 1." loading="lazy">
+          <div><strong>Option 1: Three phones</strong><p>The owner, the employee and the clinic, each on their own phone screen.</p><span class="go">Open</span></div>
+        </a>
+        <a class="opt" href="round-1/option-2-main-street/">
+          <img src="thumbs/r1-o2.jpg" width="1200" height="750" alt="First screen of Round 1, Option 2." loading="lazy">
+          <div><strong>Option 2: Main Street</strong><p>A sign-painted DFW storefront. The page walks down the street, one door at a time.</p><span class="go">Open</span></div>
+        </a>
+        <a class="opt" href="round-1/option-3-triplicate/">
+          <img src="thumbs/r1-o3.jpg" width="1200" height="750" alt="First screen of Round 1, Option 3." loading="lazy">
+          <div><strong>Option 3: Triplicate</strong><p>One visit, three copies: one each for the owner, the employee and the clinic.</p><span class="go">Open</span></div>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Prepared by Second Shift, November 2026. Design preview only. This is not the live Harper Health Network site.</div>
+</footer>
+</body>
+</html>
